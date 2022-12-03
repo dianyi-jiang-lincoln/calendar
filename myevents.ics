@@ -3,7 +3,6 @@ VERSION:2.0
 PRODID:-//ical.marudot.com//iCal Event Maker
 X-WR-CALNAME:LincolnNS2022
 NAME:LincolnNS2022
-REFRESH-INTERVAL;VALUE=DURATION:P60M
 CALSCALE:GREGORIAN
 BEGIN:VTIMEZONE
 TZID:Pacific/Auckland
@@ -26,7 +25,7 @@ RRULE:FREQ=YEARLY;BYMONTH=4;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTAMP:20221203T095917Z
+DTSTAMP:20221203T100452Z
 UID:1668466934860-29189@ical.marudot.com
 DTSTART;TZID=Pacific/Auckland:20221114T093000
 RRULE:FREQ=WEEKLY;BYDAY=MO,TH;UNTIL=20221219T203000Z
@@ -34,14 +33,9 @@ DTEND;TZID=Pacific/Auckland:20221114T110000
 SUMMARY:COMP636/640 In Person Support
 DESCRIPTION:COMP636 Software Development\nCOMP640 User Experience\n\nTutor:\nSharon Long\nCraig Melton\ncomputing@lincoln.ac.nz\n\nExaminer:\nStuart Charters\nBuilding/Office Number: SoLA 129\nEmail: stuart.charters@lincoln.ac.nz\nOffice hours: By Appointment
 LOCATION:Studio 200
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:COMP636/640 In Person Support
-TRIGGER:-PT0M
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20221203T095917Z
+DTSTAMP:20221203T100452Z
 UID:1668467391857-44202@ical.marudot.com
 DTSTART;TZID=Pacific/Auckland:20221114T163000
 RRULE:FREQ=WEEKLY;BYDAY=MO,TH;UNTIL=20221220T033000Z
@@ -50,14 +44,9 @@ SUMMARY:COMP636/640 On-line Support
 URL:https://lincoln.zoom.us/j/99502860734?pwd=aWxwdEh0NlV1SC9YVTZHelBrYi9LQT09
 DESCRIPTION:COMP636 Software Development\nCOMP640 User Experience\n\nTutor:\nSharon Long\nCraig Melton\ncomputing@lincoln.ac.nz\n\nExaminer:\nStuart Charters\nBuilding/Office Number: SoLA 129\nEmail: stuart.charters@lincoln.ac.nz\nOffice hours: By Appointment
 LOCATION:Zoom
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:COMP636/640 On-line Support
-TRIGGER:-PT0M
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20221203T095917Z
+DTSTAMP:20221203T100452Z
 UID:1669080523519-26557@ical.marudot.com
 DTSTART;TZID=Pacific/Auckland:20221115T093000
 RRULE:FREQ=WEEKLY;BYDAY=TU;UNTIL=20221219T203000Z
@@ -66,14 +55,9 @@ SUMMARY:COMP636 Lectorial
 URL:https://lincoln.zoom.us/j/99502860734?pwd=aWxwdEh0NlV1SC9YVTZHelBrYi9LQT09
 DESCRIPTION:COMP636 Software Development\n\nVideos:\nhttps://lincoln.ap.panopto.com/Panopto/Pages/Sessions/List.aspx#isSharedWithMe=true\n\nCourse Info:\nhttps://learn.lincoln.ac.nz/course/view.php?id=1288\n\nTutor:\nSharon Long\nCraig Melton\ncomputing@lincoln.ac.nz\n\nExaminer:\nStuart Charters\nBuilding/Office Number: SoLA 129\nEmail: stuart.charters@lincoln.ac.nz\nOffice hours: By Appointment
 LOCATION:Studio 200
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:COMP636 Lectorial
-TRIGGER:-PT0M
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20221203T095917Z
+DTSTAMP:20221203T100452Z
 UID:1668467011908-75920@ical.marudot.com
 DTSTART;TZID=Pacific/Auckland:20221115T130000
 RRULE:FREQ=WEEKLY;BYDAY=TU;UNTIL=20221220T000000Z
@@ -82,53 +66,33 @@ SUMMARY:COMP640 Lectorial
 URL:https://lincoln.zoom.us/j/99502860734?pwd=aWxwdEh0NlV1SC9YVTZHelBrYi9LQT09
 DESCRIPTION:COMP640 User Experience\n\nVideos:\nhttps://lincoln.ap.panopto.com/Panopto/Pages/Sessions/List.aspx#isSharedWithMe=true\n\nCourse Info:\nhttps://learn.lincoln.ac.nz/course/view.php?id=1490\n\nExaminer:\nStuart Charters\nBuilding/Office Number: SoLA 129\nEmail: stuart.charters@lincoln.ac.nz\nOffice hours: By Appointment
 LOCATION:Studio 200
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:COMP640 Lectorial
-TRIGGER:-PT0M
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20221203T095917Z
+DTSTAMP:20221203T100452Z
 UID:1668473750832-92506@ical.marudot.com
 DTSTART;VALUE=DATE:20221209
 DTEND;VALUE=DATE:20221210
 SUMMARY:COMP640 Assessment
 DESCRIPTION:Concept Design – Ideation (Sheet 1)\nWeighting: 15\nDue date: 5pm Friday 9th December 2022 
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:COMP640 Assessment
-TRIGGER:-PT0M
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20221203T095917Z
+DTSTAMP:20221203T100452Z
 UID:1668473759450-69939@ical.marudot.com
 DTSTART;VALUE=DATE:20221216
 DTEND;VALUE=DATE:20221217
 SUMMARY:COMP640 Assessment
 DESCRIPTION:User Experience Topic – Presentation\nWeighting: 10\nDue date: 5pm Friday 16th December 2022
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:COMP640 Assessment
-TRIGGER:-PT0M
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20221203T095917Z
+DTSTAMP:20221203T100452Z
 UID:1668473500352-59250@ical.marudot.com
 DTSTART;VALUE=DATE:20221219
 DTEND;VALUE=DATE:20221220
 SUMMARY:COMP636 Assessment
 DESCRIPTION:Python and database Project\nWeighting: 30%\nDue Date: 5pm\, Monday 12th December 2022
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:COMP636 Assessment
-TRIGGER:-PT0M
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20221203T095917Z
+DTSTAMP:20221203T100452Z
 UID:1670060310826-12099@ical.marudot.com
 DTSTART;TZID=Pacific/Auckland:20230109T093000
 RRULE:FREQ=WEEKLY;BYDAY=MO,TH;UNTIL=20230209T203000Z
@@ -136,46 +100,9 @@ DTEND;TZID=Pacific/Auckland:20230109T110000
 SUMMARY:COMP636/640 In Person Support
 DESCRIPTION:COMP636 Software Development\nCOMP640 User Experience\n\nTutor:\nSharon Long\nCraig Melton\ncomputing@lincoln.ac.nz\n\nExaminer:\nStuart Charters\nBuilding/Office Number: SoLA 129\nEmail: stuart.charters@lincoln.ac.nz\nOffice hours: By Appointment
 LOCATION:Studio 200
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:COMP636/640 In Person Support
-TRIGGER:-PT0M
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20221203T095917Z
-UID:1670060320497-61762@ical.marudot.com
-DTSTART;TZID=Pacific/Auckland:20230109T093000
-RRULE:FREQ=WEEKLY;BYDAY=TU;UNTIL=20230209T203000Z
-DTEND;TZID=Pacific/Auckland:20230109T113000
-SUMMARY:COMP636 Lectorial
-URL:https://lincoln.zoom.us/j/99502860734?pwd=aWxwdEh0NlV1SC9YVTZHelBrYi9LQT09
-DESCRIPTION:COMP636 Software Development\n\nVideos:\nhttps://lincoln.ap.panopto.com/Panopto/Pages/Sessions/List.aspx#isSharedWithMe=true\n\nCourse Info:\nhttps://learn.lincoln.ac.nz/course/view.php?id=1288\n\nTutor:\nSharon Long\nCraig Melton\ncomputing@lincoln.ac.nz\n\nExaminer:\nStuart Charters\nBuilding/Office Number: SoLA 129\nEmail: stuart.charters@lincoln.ac.nz\nOffice hours: By Appointment
-LOCATION:Studio 200
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:COMP636 Lectorial
-TRIGGER:-PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20221203T095917Z
-UID:1670060324550-33720@ical.marudot.com
-DTSTART;TZID=Pacific/Auckland:20230109T130000
-RRULE:FREQ=WEEKLY;BYDAY=TU;UNTIL=20230210T000000Z
-DTEND;TZID=Pacific/Auckland:20230109T140000
-SUMMARY:COMP640 Lectorial
-URL:https://lincoln.zoom.us/j/99502860734?pwd=aWxwdEh0NlV1SC9YVTZHelBrYi9LQT09
-DESCRIPTION:COMP640 User Experience\n\nVideos:\nhttps://lincoln.ap.panopto.com/Panopto/Pages/Sessions/List.aspx#isSharedWithMe=true\n\nCourse Info:\nhttps://learn.lincoln.ac.nz/course/view.php?id=1490\n\nExaminer:\nStuart Charters\nBuilding/Office Number: SoLA 129\nEmail: stuart.charters@lincoln.ac.nz\nOffice hours: By Appointment
-LOCATION:Studio 200
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:COMP640 Lectorial
-TRIGGER:-PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20221203T095917Z
+DTSTAMP:20221203T100452Z
 UID:1670060315878-58816@ical.marudot.com
 DTSTART;TZID=Pacific/Auckland:20230109T163000
 RRULE:FREQ=WEEKLY;BYDAY=MO,TH;UNTIL=20230210T033000Z
@@ -184,88 +111,73 @@ SUMMARY:COMP636/640 On-line Support
 URL:https://lincoln.zoom.us/j/99502860734?pwd=aWxwdEh0NlV1SC9YVTZHelBrYi9LQT09
 DESCRIPTION:COMP636 Software Development\nCOMP640 User Experience\n\nTutor:\nSharon Long\nCraig Melton\ncomputing@lincoln.ac.nz\n\nExaminer:\nStuart Charters\nBuilding/Office Number: SoLA 129\nEmail: stuart.charters@lincoln.ac.nz\nOffice hours: By Appointment
 LOCATION:Zoom
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:COMP636/640 On-line Support
-TRIGGER:-PT0M
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20221203T095917Z
+DTSTAMP:20221203T100452Z
 UID:1668473769815-22048@ical.marudot.com
 DTSTART;VALUE=DATE:20230110
 DTEND;VALUE=DATE:20230111
 SUMMARY:COMP640 Assessment
 DESCRIPTION:Concept Design (Sheets 2\, 3\, 4 & 5)\nWeighting: 20\nDue date: 5pm\, Tuesday 10th January 2023 
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:COMP640 Assessment
-TRIGGER:-PT0M
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20221203T095917Z
+DTSTAMP:20221203T100452Z
+UID:1670060320497-61762@ical.marudot.com
+DTSTART;TZID=Pacific/Auckland:20230110T093000
+DTEND;TZID=Pacific/Auckland:20230110T113000
+SUMMARY:COMP636 Lectorial
+URL:https://lincoln.zoom.us/j/99502860734?pwd=aWxwdEh0NlV1SC9YVTZHelBrYi9LQT09
+DESCRIPTION:COMP636 Software Development\n\nVideos:\nhttps://lincoln.ap.panopto.com/Panopto/Pages/Sessions/List.aspx#isSharedWithMe=true\n\nCourse Info:\nhttps://learn.lincoln.ac.nz/course/view.php?id=1288\n\nTutor:\nSharon Long\nCraig Melton\ncomputing@lincoln.ac.nz\n\nExaminer:\nStuart Charters\nBuilding/Office Number: SoLA 129\nEmail: stuart.charters@lincoln.ac.nz\nOffice hours: By Appointment
+LOCATION:Studio 200
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20221203T100452Z
+UID:1670060324550-33720@ical.marudot.com
+DTSTART;TZID=Pacific/Auckland:20230110T130000
+DTEND;TZID=Pacific/Auckland:20230110T140000
+SUMMARY:COMP640 Lectorial
+URL:https://lincoln.zoom.us/j/99502860734?pwd=aWxwdEh0NlV1SC9YVTZHelBrYi9LQT09
+DESCRIPTION:COMP640 User Experience\n\nVideos:\nhttps://lincoln.ap.panopto.com/Panopto/Pages/Sessions/List.aspx#isSharedWithMe=true\n\nCourse Info:\nhttps://learn.lincoln.ac.nz/course/view.php?id=1490\n\nExaminer:\nStuart Charters\nBuilding/Office Number: SoLA 129\nEmail: stuart.charters@lincoln.ac.nz\nOffice hours: By Appointment
+LOCATION:Studio 200
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20221203T100452Z
 UID:1668473555603-52841@ical.marudot.com
 DTSTART;VALUE=DATE:20230118
 DTEND;VALUE=DATE:20230119
 SUMMARY:COMP636 Assessment
 DESCRIPTION:Jinja & CSS Project \nWeighting: 15%\nDue Date: 5pm\, Wednesday 18th January 2023 
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:COMP636 Assessment
-TRIGGER:-PT0M
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20221203T095917Z
+DTSTAMP:20221203T100452Z
 UID:1668473779780-96965@ical.marudot.com
 DTSTART;VALUE=DATE:20230127
 DTEND;VALUE=DATE:20230128
 SUMMARY:COMP640 Assessment
 DESCRIPTION:Expert Evaluation \nWeighting: 25  \nDue date: 5pm\, Friday 27th January\, 2023
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:COMP640 Assessment
-TRIGGER:-PT0M
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20221203T095917Z
+DTSTAMP:20221203T100452Z
 UID:1668473560884-95776@ical.marudot.com
 DTSTART;VALUE=DATE:20230130
 DTEND;VALUE=DATE:20230131
 SUMMARY:COMP636 Assessment
 DESCRIPTION:Ethics\nWeighting: 15%\nDue Date: 5pm\, Monday 30th January 2023
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:COMP636 Assessment
-TRIGGER:-PT0M
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20221203T095917Z
+DTSTAMP:20221203T100452Z
 UID:1668473573198-38927@ical.marudot.com
 DTSTART;VALUE=DATE:20230210
 DTEND;VALUE=DATE:20230211
 SUMMARY:COMP636 Assessment
 DESCRIPTION:Web App Project\nWeighting: 15%\nDue Date: 5pm\, Friday 10th February 2023
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:COMP636 Assessment
-TRIGGER:-PT0M
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20221203T095917Z
+DTSTAMP:20221203T100452Z
 UID:1668473840883-14373@ical.marudot.com
 DTSTART;VALUE=DATE:20230213
 DTEND;VALUE=DATE:20230214
 SUMMARY:COMP640 Assessment
 DESCRIPTION:Interactive Prototype\nWeighting: 30\nDue date: 5pm\, Monday 13th February 2023
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:COMP640 Assessment
-TRIGGER:-PT0M
-END:VALARM
 END:VEVENT
 END:VCALENDAR
