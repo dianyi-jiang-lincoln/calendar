@@ -1,0 +1,84 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+X-WR-CALNAME:LincolnS1_2023
+NAME:LincolnS1_2023
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Pacific/Auckland
+LAST-MODIFIED:20201011T015911Z
+TZURL:http://tzurl.org/zoneinfo-outlook/Pacific/Auckland
+X-LIC-LOCATION:Pacific/Auckland
+BEGIN:DAYLIGHT
+TZNAME:NZDT
+TZOFFSETFROM:+1200
+TZOFFSETTO:+1300
+DTSTART:19700927T020000
+RRULE:FREQ=YEARLY;BYMONTH=9;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:NZST
+TZOFFSETFROM:+1300
+TZOFFSETTO:+1200
+DTSTART:19700405T030000
+RRULE:FREQ=YEARLY;BYMONTH=4;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20230202T082420Z
+UID:1675325032364-16702@ical.marudot.com
+DTSTART;TZID=Pacific/Auckland:20230221T130000
+RRULE:FREQ=WEEKLY;BYDAY=TU;UNTIL=20230623T010000Z
+DTEND;TZID=Pacific/Auckland:20230221T143000
+SUMMARY:COMP643 Advanced Database Management
+DESCRIPTION:COMP643 Advanced Database Management
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:COMP643 Advanced Database Management
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20230202T082420Z
+UID:1675324739385-22299@ical.marudot.com
+DTSTART;TZID=Pacific/Auckland:20230222T093000
+RRULE:FREQ=WEEKLY;BYDAY=WE;UNTIL=20230622T213000Z
+DTEND;TZID=Pacific/Auckland:20230222T110000
+SUMMARY:COMP639 Lecture
+DESCRIPTION:COMP639 Studio Project\nPatricia Anthony\n
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:COMP639 Lecture
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20230202T082420Z
+UID:1675325564772-47180@ical.marudot.com
+DTSTART;TZID=Pacific/Auckland:20230223T090000
+RRULE:FREQ=DAILY;UNTIL=20230223T200000Z
+DTEND;TZID=Pacific/Auckland:20230223T160000
+SUMMARY:COMP639 Workshop
+DESCRIPTION:For those studying COMP636 and in the Master of Applied Computing or a pathway programme  who are intending to take COMP639 Studio Project in Semester 1\, 2023 please note these dates:\n\nThursday 23rd February and Friday 24th February 2023 will be the compulsory in person (at Lincoln University) studio project workshop for COMP639. \n\nPlease make arrangements to take leave from work/other commitments and travel to Lincoln for these two days be present 9am until 4pm each day.\n\nAssociate Professor Patricia Anthony is the examiner for this course\, please contact her with any queries (patricia.anthony@lincoln.ac.nz). \n\nYou can find course outlines for courses here: https://learn.lincoln.ac.nz//blocks/core_resources/ShowOutlinesList.php\n\nCourses in Semester 1\, 2023 (Now open for enrolment)\nCOMP639 Studio Project (core course after COMP636) (40 credits)\nCOMP693 Industry Project (core course after COMP639) (40 credits)\nCOMP637 User Experience and Business Analysis\nCOMP643 Advanced Database Management\nERST606 Advanced GIS A (on-campus delivery)\nENGN676 Agricultural Engineering (on-campus delivery).\n\nCourses in Semester 2\, 2023 (Now open for enrolment)\nCOMP639 Studio Project (core course after COMP636) (40 credits)\nCOMP693 Industry Project (core course after COMP639) (40 credits)\nCOMP627 Neural Networks\nCOMP640 User Experience\nCOMP642 Advanced Programming \nERST607 Advanced GIS B (on-campus study)\nENGN604 Advanced Precision Agriculture (on-campus study)
+LOCATION:85084 Ellesmere Junction Road\, Lincoln 7647
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:COMP639 Workshop
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20230202T082420Z
+UID:1675324844146-61841@ical.marudot.com
+DTSTART;TZID=Pacific/Auckland:20230223T110000
+RRULE:FREQ=WEEKLY;BYDAY=TH;UNTIL=20230622T230000Z
+DTEND;TZID=Pacific/Auckland:20230223T123000
+SUMMARY:COMP639 Support
+DESCRIPTION:COMP639 Studio Project
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:COMP639 Support
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
